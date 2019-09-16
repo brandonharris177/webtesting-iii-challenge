@@ -4,9 +4,9 @@ import Display from './Display';
 import {render} from '@testing-library/react';
 
 test('Display renders without crashing', () => {
-    render(<Display />)
+    render(<Display />);
 });
 
 test('should match snapshot', () => {
-    expect(render(<Display/>)).ToMatchSnapshot();
+    expect(render(<Display/>)).toMatchSnapshot();
 });
